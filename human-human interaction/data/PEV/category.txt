@@ -1,0 +1,8 @@
+Pointing
+Attention
+Passing
+Receiving
+Positive
+Negative
+Gesture
+None

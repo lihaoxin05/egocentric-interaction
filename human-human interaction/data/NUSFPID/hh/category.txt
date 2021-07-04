@@ -1,0 +1,4 @@
+pass
+shake
+throw
+wave

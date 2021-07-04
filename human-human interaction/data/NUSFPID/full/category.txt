@@ -1,0 +1,8 @@
+cell
+door
+pass
+shake
+throw
+type
+wave
+write

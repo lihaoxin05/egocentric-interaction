@@ -1,0 +1,28 @@
+python \
+train.py \
+--gpu_list 0,1,2,3 \
+--dataset_dir /data/PEV \
+--dataset_list_file data/PEV/trainlist1.txt \
+--checkpoint_dir ./checkpoints/ \
+--visual_dir ./train_vis/ \
+--vis_flag True \
+--vis_freq 5000 \
+--pretrain_model /data/resume_int/model.ckpt-3001 \
+--attention_checkpoint_file /data/resume_int/model.ckpt-3001 \
+--motion_checkpoint_file /data/resume_int/model.ckpt-3001 \
+--trainable_scopes interaction_net \
+--learning_rate 1e-3 \
+--max_steps 10000 \
+--step_per_save 1000 \
+--max_ckpt 20 \
+--cls_loss_weight 1e0 \
+--parsing_loss_weight 1e0 \
+--pixel_loss_weight 1e0 \
+--smooth_loss_weight 1e-3 \
+--base_net_weight_reg 1e-4 \
+--attention_net_weight_reg 1e-2 \
+--motion_net_weight_reg 1e-2 \
+--interaction_net_weight_reg 1e-4 \
+--keep_prob 0.2 \
+--batch_size 8 \
+--num_class 8 

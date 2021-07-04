@@ -1,0 +1,2 @@
+# egocentric interaction
+This repo contains the source code for our project, egocentric interaction recognition. It consists of two parts, human-human interaction recognition and human-object interaction recognition.
